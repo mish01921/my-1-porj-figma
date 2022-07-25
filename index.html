@@ -17,16 +17,16 @@
 
 <body>
     <!-- ========== section-1 ========== -->
-    <section class="section-1">
+    <section class="section-1" id="section-1">
         <header class="header-container">
             <!-- nav bar -->
             <nav>
                 <label class="logo">Locus</label>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#section-1">Home</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li><a href="./Location2/index.html">Location</a></li>
+                    <li><a href="./AboutUs/index.html">About us</a></li>
                 </ul>
             </nav>
             <!-- end nav bar -->
@@ -46,7 +46,7 @@
                     With us, you will get a residentical design with an extraordinary touch of art.</p>
             </div>
 
-            <div><button class="button">Let's go</button></div>
+            <div><a href="#section-2" class="button" >Let's go</a></div>
         </div>
         <!-- end columns -->
 
@@ -58,7 +58,7 @@
     <!-- ========== section-1 end ========== -->
 
     <!-- ========== start section-2 ========== -->
-    <section class="section-2">
+    <section id="section-2" class="section-2">
 
         <h1>How it works</h1>
         <p>Spice up your space even simpler<br>than you think</p>
@@ -198,9 +198,9 @@
             <p>Full name</p>
 
             <!-- normal -->
-            <input class="normal" type="text">
+            <input class="normal" id="full_name" type="text" value="">
             <p>Email adress</p>
-            <input class="normal" type="email">
+            <input class="normal"  type="email">
             <!-- normal end -->
 
             <p>Description</p>
@@ -209,7 +209,7 @@
             <!-- different end -->
 
             <!-- button -->
-            <button class="button">Send now</button>
+            <button class="button" onclick="SendInfo()">Send now</button>
             <!-- button end -->
         </form>
         <!-- description end -->

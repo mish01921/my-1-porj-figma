@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
+body,html {
+    scroll-behavior: smooth;
     background: #E5E5E5;
 }
 
@@ -36,6 +37,7 @@ body {
 }
 
 .section-1 nav ul li {
+    
     /* display: inline-block; */
     /* line-height: 80px; */
     margin-left: 70px;
@@ -61,6 +63,7 @@ body {
 }
 
 .section-1 .active, a:hover {
+    padding: 10px;
     background: rgb(205, 252, 226);
     transition: .5s;
 }
@@ -91,7 +94,7 @@ body {
 
 .section-1 .button {
     background-color: #76D7C4;
-    border-radius: 25%;
+    border-radius:60px;
     border: none;
     color: white;
     padding: 15px 25px;
@@ -99,7 +102,9 @@ body {
     text-decoration: none;
     font-size: 16px;
 }
-
+.section-1 .button:hover{
+    opacity: 0.7;
+}
 .section-1 .columns {
     display: flex;
     margin-left: 10%;
