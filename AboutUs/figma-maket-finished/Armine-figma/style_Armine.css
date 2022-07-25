@@ -1,0 +1,63 @@
+/* style for all page */
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.section-3 .main-cards {
+    display: flex;
+}
+
+/* style for section-3 */
+
+.section-3 {
+    width: 75%;
+}
+ /* header and paragraph  */
+
+.section-3 h2 {
+    font-family: Poppins;
+    Font-style: ExtraBold;
+    font-weight: bolder;
+    Font-size: 50px;
+    text-align: center;
+    color: #1C2323;
+}
+
+.section-3 .paragraph {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1.5em;
+}
+
+.section-3 hr {
+    align-items: center;
+    background: #58A9A5;
+    margin-top: 0.3rem;
+    width: 7%;
+    height: 3px;
+    border-radius: 8px;
+}
+/* end header and paragraph  */
+
+.section-3 h3 {
+    color: #58A9A5;
+    font-size: 2rem;
+}
+
+/* section-3 end */
+
+/* card*/
+
+.card {
+    width: 25%;
+    margin-top: 2em;
+}
+
+.section-3 img {
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+/* end card */

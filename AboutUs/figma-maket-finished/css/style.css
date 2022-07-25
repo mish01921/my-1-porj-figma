@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+    /* list-style: none; */
+    box-sizing: border-box;
+}
+
+/* section-1 */
+
+/* header-container */
+
+.section-1 .header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 45%;
+    font-size: 40px;
+}
+
+/* end header-container */
+
+/*  nav bar */
+
+.section-1 label.logo {
+    color: #A9DFBF;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+    left: 90px;
+    position: absolute;
+}
+
+.section-1 nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 70px; 
+}
+
+.section-1 ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 15%;
+}
+
+.section-1 nav ul li a {
+    color: rgb(13, 109, 56);
+    font-size: 17px;
+    /* changed */
+    text-decoration: none;
+}
+
+.section-1 .active, a:hover {
+    background: rgb(205, 252, 226);
+    transition: .5s;
+}
+
+/* end nav bar */
+
+/* image */
+
+.section-1 .image {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 850px;
+    top: 140px;
+    background-color: rgb(209, 242, 235);
+    max-width: 400px;
+    max-height: 400px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 30%;
+}
+
+/* end image */
+
+/* columns */
+
+.section-1 .button {
+    background-color: #76D7C4;
+    border-radius: 25%;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-1 .columns {
+    text-align: left;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 6%;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.section-1 .text {
+    margin-right: 10%;
+    font-size: 20px;
+    width: 40%;
+    line-height: 35px;
+    margin-bottom: 2%;
+}
+
+.section-1 .header {
+    font-size: 30px;
+    width: 26%;
+    line-height: 38px;
+    margin-bottom: 2%;
+}
+
+/* end columns */
+
+/* section-1 end */
+
+/* section-2 */
+
+/* start first img Misho*/
+.section-2 {
+    margin-top: 90px;
+}
+
+.section-2 h1,
+p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-2 h1 {
+    font-size: 45px;
+    font-style: normal;
+}
+
+.section-2 p {
+    color: #486958;
+    font-size: 20px;
+}
+
+.section-2 .contImg {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 2%;
+    position: relative;
+    width: 80%;
+}
+
+.section-2 .FirstImg {
+    width: 48%;
+    display: inline-block;
+}
+
+.icon-button {
+    width: 5%;
+    height: 69px;
+    position: absolute;
+    margin-left: 46.5%;
+    margin-top: 8%;
+}
+
+.icon-button:hover {
+    opacity: 0.8;
+}
+
+.section-2 .child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CCF0E6;
+    width: 30%;
+    font-size: 14px;
+    line-height: 150%;
+    color: #486958;
+    padding: 0 5%;
+}
+/* end first img */
+
+/* start second img */
+.section-2 .secondImg {
+    display: flex;
+    margin: 5% 0 10% 10%;
+}
+
+.section-2 .img2 {
+    width: 26%;
+}
+
+.section-2 .mission {
+    background: #E5E5E5;
+    padding-left: 5%;
+}
+
+.section-2 .title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+}
+
+.section-2 .applying {
+    font-size: 19px;
+    line-height: 26px;
+    color: #486958;
+    margin-top: 27px;
+}
+/* End Misho project */

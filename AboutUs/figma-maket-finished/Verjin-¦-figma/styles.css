@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* header-container */
+
+.section-1 .header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 45%;
+    font-size: 40px;
+}
+
+/* end header-container */
+
+/*  nav bar */
+
+.section-1 label.logo {
+    color: #A9DFBF;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+    left: 90px;
+    position: absolute;
+}
+
+
+.section-1  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 70px;
+}
+
+.section-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 li {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 15%;
+
+}
+
+.section-1 nav ul li a {
+    color: rgb(13, 109, 56);
+    font-size: 17px;
+}
+
+.section-1 .active,
+a:hover {
+    background: rgb(205, 252, 226);
+    transition: .5s;
+}
+
+    /* end nav bar */
+
+/* image */
+
+.section-1  .image {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 850px;
+    top: 140px;
+    background-image: url("img.png");
+    background-color: rgb(209, 242, 235);
+    max-width: 400px;
+    max-height: 400px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 30%;
+
+/* end image */
+}
+
+/* columns */
+
+.section-1  .button {
+    background-color: #76D7C4;
+    border-radius: 25%;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-1  .columns {
+    text-align: left;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 6%;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.section-1  .text {
+    margin-right: 10%;
+    font-size: 20px;
+    width: 40%;
+    line-height: 35px;
+    margin-bottom: 2%;
+
+}
+
+.section-1  .header {
+    font-size: 30px;
+    width: 26%;
+    line-height: 38px;
+    margin-bottom: 2%;
+}
+/* end columns */

@@ -1,0 +1,66 @@
+/* footer */
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+/* vl */
+
+footer .vl {
+    border-bottom: 3px solid #486958;
+    height: 5px;
+    width: 70px;
+  }
+/* vl end */
+/* h1 */
+
+ footer .h1{
+    font-size: 41.5px;
+  }
+/* h1 end */
+
+  /* description */
+
+footer  .description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+  }
+/* description end */
+
+/* normal */
+footer .normal {
+    border-bottom: 0.25px solid back;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        resize: none;
+        height: 50px;
+  }
+/* normal end */
+
+/* different */
+
+ footer .different{
+    border: none;
+  }
+/* different end */
+
+/* button */
+  footer .button{
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    margin-left: 80%;
+    background-color: #58A9A5;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+/* button end */
+
+/* footer end */

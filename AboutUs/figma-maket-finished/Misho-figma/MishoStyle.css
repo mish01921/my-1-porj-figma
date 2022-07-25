@@ -1,0 +1,111 @@
+        /* start first img Misho*/
+        .section-2 h1, p {
+            text-align: center;
+
+        }
+
+        .section-2 h1 {
+
+            font-size: 45px;
+            font-style: normal;
+        }
+
+        .section-2 p {
+            color: #486958;
+            font-size: 20px;
+
+        }
+
+        .section-2 .contImg {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 27%;
+            position: relative;
+
+        }
+
+        .section-2 .FirstImg {
+            width: 48%;
+            height: 20vh;
+            display: inline-block;
+
+
+
+        }
+
+        .icon-button {
+            width: 7.5vh;
+            height: 7.5vh;
+            position: absolute;
+            padding-left: 46%;
+            padding-top: 10vh;
+        }
+
+        .icon-button:hover {
+            opacity: 0.8;
+        }
+
+        .section-2 .child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #CCF0E6;
+            width: 20%;
+            height: 20vh;
+            font-size: 14px;
+            line-height: 130%;
+            color: #486958;
+            padding: 0 5%;
+
+        }
+
+        .section-2 .commercial {
+            padding-top: 3em;
+            padding-right: 20rem;
+            font-family: 'Poppins';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            min-height: min-content
+        }
+
+        /* end first img */
+
+        /* start second img */
+        .section-2 .secondImg {
+            display: flex;
+            margin: 5% 0 0 30%;
+            height: auto;
+            margin-left: 27%;
+
+        }
+
+        .section-2 .img2 {
+
+            width: 37vh;
+            height: 44vh;
+        }
+
+        .section-2 .mission {
+            background: #E5E5E5;
+            padding-left: 8%;
+
+        }
+
+        .section-2 .title {
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 41px;
+
+        }
+
+        .section-2 .applying {
+            font-size: 19px;
+            line-height: 27px;
+            color: #486958;
+            margin-top: 30px;
+
+
+        }
+
+        /* End Misho project */
